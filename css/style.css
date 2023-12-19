@@ -114,15 +114,17 @@ p{
  .vp2_2{
     padding-left : 100px;
     padding-right: 100px;
-    padding-bottom: 400px;
+    padding-bottom: 25px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    flex-wrap: wrap;
  }
 .box{
     height: 450px;
     width: 350px;
     background-color: white;
+    margin-bottom: 40px;
  }
 .box .child1_1{
     height: 50%;
@@ -137,6 +139,28 @@ p{
 .box .child3_1{
     height: 50%;
     background: url(../images/house-3.jpg)center center/cover;
+}
+.box .child4_1{
+    height: 50%;
+    background: url(../images/m2.jpg)center center/cover;
+}
+.box .child5_1{
+    height: 50%;
+    background: url(../images/mr1.jpeg)center center/cover;
+}
+.box .child6_1{
+    height: 50%;
+    background: url(../images/mr3.jpeg)center center/cover;
+}
+.box .child7_1{
+    height: 50%;
+    background: url(../images/mr4.jpeg)center center/cover;
+}.box .child8_1{
+    height: 50%;
+    background: url(../images/mr5.jpeg)center center/cover;
+}.box .child9_1{
+    height: 50%;
+    background: url(../images/mr8.jpeg)center center/cover;
 }
 .box .child2{
     padding-left: 30px;
@@ -166,6 +190,7 @@ p{
    
 }
 .vp_container3 .box1{
+
     height: 700px;
     width: 50%;
     background: url(../images/team.jpg)center center/cover;
@@ -181,7 +206,7 @@ p{
      text-align: start;
      padding-left: 40px;
      padding-right: 40px;
-     font-size: 25px ; 
+     font-size: 30px ; 
     
 }
 .box2_2{
@@ -293,4 +318,50 @@ p{
     border: 0;
     border-radius: 30px;
     background: #f9ca24;
+}
+/*testimonials*/
+.testimonials{
+    padding: 4rem 1rem 18rem 14rem;
+}
+.testimonials-content{
+    display: flex;
+    flex-direction: column;
+}
+.testimonials-elem{
+    flex: 1;
+    background: white;
+    border-radius: 5px;
+    padding: 2rem;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-bottom: 1rem;
+    display: flex;
+}
+.testimonials-elem-text{
+    padding: 0 2rem;
+}
+.testimonials-elem-profile{
+
+}
+.testimonials-elem-profile img{
+    width: 61px;
+    border-radius: 50px;
+    margin-bottom: 0.5rem;
+}
+.testimonials-elem-profile p{
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.testimonials-elem-text p i{
+    margin: 0.2rem;
+}
+footer{
+    background: #444;
+    padding: 5rem 1rem 5rem 1rem;
+    color: white;
+    text-align: center;
+}
+footer p{
+    margin-bottom: 0;
+
 }
